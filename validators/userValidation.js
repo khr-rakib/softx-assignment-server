@@ -1,5 +1,6 @@
 const { check } = require('express-validator');
 
+// registration validation
 exports.signupValidator = [
     check('name', 'Name must be between 3 to 50 characters')
         .not()
